@@ -8,7 +8,7 @@ var correct = 0;
 var missed = 0;
 var unanswered = 0;
 
-var countdown = 5;
+var countdown = 60;
 var intervalId;
 
 intervalId = setInterval(decrement, 1000);
