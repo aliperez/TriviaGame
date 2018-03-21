@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Totally Texas Trivia</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+</head>
+
+<body>
+
+    <div id="container">
+
+        <h1>Totally Texas Trivia!</h1>
+
+        <div id="timerBox">
+            <h2>Time Remaining: </h2>
+            <h2 id="timer">60 seconds</h2>
+        </div>
+
+        <div id="questions">
+            <p>Q1: The great state of Texas' nickname is...</p>
+            <form id="Q1">
+                <input type="radio" name="nickname" value="a">The Big State
+                <input type="radio" name="nickname" value="b">The Bluebonnet State
+                <input type="radio" name="nickname" value="c">The Barbeque State
+                <input type="radio" name="nickname" value="d">The Lone Star State
+            </form>
+
+            <br>
+            <hr>
+
+            <p>Q2: The capital city of Texas is...</p>
+            <form id="Q2">
+                <input type="radio" name="capital" value="a">Houston
+                <input type="radio" name="capital" value="b">Austin
+                <input type="radio" name="capital" value="c">San Antonio
+                <input type="radio" name="capital" value="d">Dallas
+            </form>
+
+            <br>
+            <hr>
+
+            <p>Q3: The state flower of Texas is the...</p>
+            <form id="Q3">
+                <input type="radio" name="flower" value="a">Rose
+                <input type="radio" name="flower" value="b">Sunflower
+                <input type="radio" name="flower" value="c">Bluebonnet
+                <input type="radio" name="flower" value="d">Violet
+            </form>
+
+            <br>
+            <hr>
+
+            <p>Q4: The state bird of Texas is the...</p>
+            <form id="Q4">
+                <input type="radio" name="bird" value="a">Mockingbird
+                <input type="radio" name="bird" value="b">Blue Jay
+                <input type="radio" name="bird" value="c">Woodpecker
+                <input type="radio" name="bird" value="d">Crow
+            </form>
+
+            <br>
+            <hr>
+
+            <p>Q5: The official state dish of Texas is...</p>
+            <form id="Q5">
+                <input type="radio" name="dish" value="a">Pico de Gallo
+                <input type="radio" name="dish" value="b">Smoked Brisket
+                <input type="radio" name="dish" value="c">Chili
+                <input type="radio" name="dish" value="d">Fried Okra
+            </form>
+
+            <button id="submit">Submit</button>
+
+        </div> 
+        <!-- end questions -->
+    </div>
+    <!-- end container -->
+
+    <div id="resultsOff"></div>
+
+    <script src="assets/javascript/app.js"></script>
+
+</body>
+
+</html>
